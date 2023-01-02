@@ -1,7 +1,7 @@
 # Bootstrap-Portfolio
 A portfolio using bootstrap framework
 
-Deployed link: link of online 
+Deployed link: https://arbayung.github.io/Bootstrap-Portfolio/
 
 ## Description
 
