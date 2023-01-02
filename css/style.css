@@ -1,7 +1,101 @@
+@media (max-width: 576px){
+
+}
+
+@media (max-width: 768px){
+    
+}
+
+@media (max-width:992px){
+    .heading{
+        text-align: center;
+    }
+
+    #headshot{
+        text-align: center;
+    }
+}
+
+@media (max-width:1200px){
+
+}
+
+@media (max-width:1400px){
+}
+
+
+
+
+#offcanvasNavbar{
+    background-color: black;
+    border-radius: 0;;
+}
+
+header{
+    background-color: #37514D;
+}
+
+.navbar{
+    background-color: transparent;
+}
+
 .navbar-toggler{
     border-style: none;
 }
 
-body{
-    background-color: rebeccapurple;
+.offcanvas-title{
+    color: white;
 }
+
+.btn-close{
+    background-color: white;
+}
+
+body{
+    background-color: #90AEB2;
+}
+
+header p{
+    color: white;
+}
+
+header h1{
+    color: #90AEB2;
+}
+
+.navbar a{
+    color: white;
+    border-radius: 2rem;
+}
+
+.navbar a:hover{
+    background-color: #90AEB2;
+    border-radius: 2rem;
+    color: white;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+.btn-primary{
+    background-color: transparent;
+    border-color: #90AEB2;
+    border-width: 2px;
+    color: #90AEB2;
+}
+
+.btn-primary:hover{
+    background-color: #90AEB2;
+    border-color: #90AEB2;
+    color: #37514D;
+}
+
+img{
+    border-radius: 3px;
+}
+

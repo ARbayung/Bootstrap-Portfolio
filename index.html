@@ -9,36 +9,71 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-expand-md bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">AR</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>      
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Contents</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-expand-md px-3">
+            <div class="container-fluid">
+            <div class="navbar-brand">AR</div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>      
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Contents</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Work</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#aboutme">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="knowledge">Knowledge</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactme">Contact me</a>
+                    </li>
+                </ul>
             </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Work</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Knowledge</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact me</a>
-                </li>
-              </ul>
-          </div>
-        </div>
-      </nav>
+            </div>
+        </nav>
+        <div class="heading">
+            <div class="container col-xxl-8 px-4 py-4">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
 
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="./images/headshot.jpg" class="d-block mx-auto " height="291.37px" width="438.75px" alt="HeadShot">
+                    </div>
+
+                    <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold 1h-1 mb-3">Abiskar Rai</h1>
+                        <p class="lead">
+                            "Hello, it's great to have you here! I'm an aspiring web developer 
+                            currently being mentored by Skills For Life."
+                        </p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+                                Get to Know me
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="">
+        <div class="container px-3 py-5" id="aboutme">
+            <h1>About me</h1>
+        </div>
+        <div class="container px-3 py-5" id="knowledge">
+            <h1>Knowledge</h1>
+        </div>
+        <div class="container px-3 py-5" id="contactme">
+            <h1>Contact me</h1>
+        </div>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
