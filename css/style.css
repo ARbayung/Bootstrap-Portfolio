@@ -65,13 +65,13 @@ header h1{
 
 .navbar a{
     color: white;
-    border-radius: 2rem;
+    transition: .5s ease;
 }
 
 .navbar a:hover{
-    background-color: #90AEB2;
+    color: #90AEB2;
     border-radius: 2rem;
-    color: white;
+    font-size: 14px;
 }
 
 .navbar-brand{
@@ -99,3 +99,11 @@ img{
     border-radius: 3px;
 }
 
+.card-img-top{
+    transition: .5s ease;
+    background-color: black;
+}
+
+.card-img-top:hover{
+    opacity: 0.5;
+}
